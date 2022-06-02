@@ -15,6 +15,7 @@ function square(number){
 ## Courses:
 * The Flask Mega-Tutorial by Miguel Grinberg
 * freecodecamp
+* book Jon Ducket "HTML & CSS design and build websites" 
 ## Languages:
 * Ukrainian
 * Russian
