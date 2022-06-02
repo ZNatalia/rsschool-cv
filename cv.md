@@ -1,7 +1,7 @@
 # Natalia Zubko
 ##### email: <zubko.natalia.s@gmail.com>
 ## About me: 
-I would like to get new skills in front-end development. 
+#### I would like to get new skills in front-end development. 
 ## My skills:
 Python, Flask, HTML, CSS, Bootstrap, JS, Git
 ## Code example:
@@ -22,4 +22,3 @@ function square(number){
 * Ukrainian
 * Russian
 * English
-
