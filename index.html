@@ -1,1 +1,138 @@
-<h1>Hello, World!</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cv-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <title>CV</title>
+</head>
+
+<body>
+    <div class="container-center">
+        <main>
+            <div class="container-main">
+                <div class="column1">
+                    <p class="line"><img class="avatar-image" src="./image/nat_avatar.jpg" alt="natalia_avatar"></p>
+                    <div class="container-padding">
+                        <div id="contacts">
+                            <h2>Contacts</h2>
+                            <ul>
+                                <li class="li-contacts"><object data="./icons/email.svg" width="20" height="20">
+                                    </object>
+                                    <a href="mailto:zubko.natalia.s@gmail.com?subject=Feedback&body=Message">Email:
+                                        zubko.natalia.s@gmail.com</a>
+                                </li>
+                                <li><object data="./icons/github.svg" width="20" height="20"></object>
+                                    <a href="https://github.com/ZNatalia">GitHub: @ZNatalia</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div id="skills">
+                            <h2>Skills</h2>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JS</li>
+                                <li>Bootstrap</li>
+                                <li>Python</li>
+                                <li>Flask</li>
+                                <li>Git</li>
+                            </ul>
+                        </div>
+                        <div id="education">
+                            <h2>Education</h2>
+                            <p>2006 - 2011 Applied Mathematics (Bachelor's degree) Kharkiv National University, Ukraine
+                            </p>
+
+                        </div>
+                        <div id="languages">
+                            <h2>Languages:</h2>
+                            <ul>
+                                <li>English: advanced</li>
+                                <li>Ukrainian: native</li>
+                                <li>Russian: native</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="column2">
+                    <div class="column2-header">
+                        <header>
+                            <div id="space"></div>
+                            <nav>
+                                <ul id="nav">
+                                    <!-- <li><a href="#about-me">About me</a></li> -->
+                                    <li><a href="#experience">Experience</a></li>
+                                    <li><a href="#contacts">Contacts</a></li>
+                                    <li><a href="#education">Education</a></li>
+                                    <li><a href="#projects">Projects</a></li>
+                                </ul>
+                            </nav>
+                            <h1>Natalia Zubko</h1>
+                            <h1 class="font-header">Web-Developer</h1>
+                        </header>
+                        <div id="about-me">
+                            <h2>About Me</h2>
+                            <p>I am a Junior Front End Developer. I am passionate about technologies. I am looking for
+                                projects where I can apply my skills</p>
+                        </div>
+                        <hr>
+                    </div>
+                    <div id="experience">
+                        <h2>Experience</h2>
+                        <p><b>Software QA Engineer, at UPDG Sep. 2020 - Present</b></p>
+                        <ul>
+                            <li>Analyzing applications and errors, escalated issues to developers, and verified fixes
+                            </li>
+                            <li>Automation testing by writing unit tests using Pytest</li>
+                            <li>Automation testing by creating test scripts for new test cases using Python, Selenium
+                            </li>
+                            <li>Performing REST API Testing using Postman</li>
+                            <li>Providing test results, reports and metrics for project status</li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div id="projects">
+                        <h2>Projects</h2>
+                        <p id="travel">Tourist attractions in Queenstown. Simple website based on Bootstrap <a
+                                href="https://github.com/ZNatalia/InterWebDev_1">Github</a></p>
+                    </div>
+                    <hr>
+                    <div id="code-examples">
+                        <h2>Code Example</h2>
+                        <p>Write a function to split a string and convert it into an array of words.<br><small>(Input
+                                ==> Output):<br>"Robin
+                                Singh" ==> ["Robin", "Singh"]</small> </p>
+                        <pre><code class="language-javascript">
+  function stringToArray(string){
+
+    return string.split(' ');
+
+    }
+                            </code></pre>
+                    </div>
+                    <hr>
+                    <footer>
+                        <nav id="nav-footer">
+                            <ul id="footer-nav">
+                                <li><a href="https://github.com/ZNatalia" target="_blank"><img src="icons/github.svg" alt="github_link" width="40" height="40"></a></li>
+                                <li>&copy;2022</li>
+                                <li><a href="https://rs.school/" target="_blank"><img src="icons/rs_school_js.svg" alt="rs_school_link" width="80"></a></li>
+                            </ul>
+                        </nav>
+                    </footer>
+                </div>
+            </div>
+        </main>
+
+    </div>
+
+</body>
+
+</html>
